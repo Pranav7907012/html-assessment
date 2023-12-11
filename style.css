@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    background-color: red;
+    height: 40px;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+.outer-container{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+.humburg{
+    object-fit: contain;
+    width: 30px;
+}
+.icon-image{
+    height: 30px;
+    width: 30px;
+}
+.option{
+    font-size: 19px;
+    font-weight: bold;
+}
+.session1{
+    display: flex;
+}
+.session1-content{
+width: 50%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+gap: 50px;
+padding: 60px;
+justify-content: center;
+box-sizing: border-box;
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+
+}
+.session1-image{
+width: 50%;
+height: 100vh;
+}
+img{
+    object-fit: contain;
+    height: 100%;
+}
+.session1-heading{
+    font-weight: bold;
+    font-size: 48px;
+}
+.lcontent{
+    font-size: 23px;
+}
+.button{
+    background-color: red;
+    height: 40px;
+    width: 140px;
+    color: white;
+    display: flex;
+    font-size: 19px;
+    justify-content: center;
+    align-items: center;
+}
+
+.session2{
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(242, 235, 24, 0), rgb(220, 89, 246));
+    gap: 40px;
+}
+
+.small-box{
+    background-color: red;
+    width: 520px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 25px;
+}
+
+.peas{
+    height: 200px;
+    object-fit: fill;
+}
+.peas2{
+    height: 405px;
+    width: 250px;
+    object-fit: fill;
+}
+
+.pic1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+}
+.pic2{
+    width: 250px;
+}
